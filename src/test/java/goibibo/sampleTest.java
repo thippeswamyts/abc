@@ -71,7 +71,7 @@ public class sampleTest {
 		  WebElement rdate = driver.findElement(By.xpath("//div[.='"+rmonth+"']/ancestor::div[@class='DayPicker-Month']//p[.='"+rday+"']"));
 		  Thread.sleep(10000);
 		  rdate.click();
-		   
+		   // for verfication
 		   
 		}
 		
