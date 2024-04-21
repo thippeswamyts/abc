@@ -42,11 +42,12 @@ public class sampleTest {
 			}
 			
 			
-	 		// String url = System.getProperty("url")
+	 		 String URL = System.getProperty("url");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			
-			driver.get("https://www.goibibo.com/");
+			 // driver.get("https://www.goibibo.com/");
+			 driver.get(URL);
 			
 			driver.findElement(By.xpath("//span[@class ='logSprite icClose']")).click();
 			WebElement ele1 = driver.findElement(By.xpath("//span[text() ='From']"));
